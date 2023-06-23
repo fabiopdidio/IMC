@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>IMC</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Cálculo de IMC</h2>
+      <!--titulo acima da imagem-->
+      <img
+        src="https://play-lh.googleusercontent.com/ouL1lfSP_CyUgb5OUvI51jG3cevMfulA1GZGtS63r3Xfa8STYiIxq6KiY3PkMc6PcTk"
+        alt="Ícone IMC"
+        class="imagem-imc"
+      />
+      <form class="formulario">
+        <label for="peso"></label>
+        <input type="number" id="peso" placeholder="Peso" />
+        <label for="altura" step="any"></label>
+        <input type="number" step="any" id="altura" placeholder="Altura" />
+        <button class="button" id="calcularButton">Calcular</button>
+        <!--cria botao de calcular-->
+      </form>
+    </div>
+    <script src="calculo_imc.js"></script>
+    <!--vincula com arquivo js de calculo-->
+  </body>
+</html>
